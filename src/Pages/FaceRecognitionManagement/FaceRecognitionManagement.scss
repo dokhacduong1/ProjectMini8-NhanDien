@@ -1,0 +1,17 @@
+.FaceRecognitionManagement{
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    &__item{
+        cursor: pointer;
+        box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10); 
+        &-card{
+            transition: all 0.3s ease 0s;
+            text-align: center;
+            &:hover{
+                background-color: black;
+                color: white;
+            }
+        }
+    }
+}

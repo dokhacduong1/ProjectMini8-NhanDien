@@ -1,0 +1,21 @@
+.header{
+    &__account{
+        display: flex;
+        justify-content: center;
+       
+        align-items: center;
+        height: 69px;
+        width: 200px;
+        &-button{
+            &-p{
+                font-size: 15px;
+                font-weight: 700;
+                margin: 0 5px;
+                &:hover,&:focus{
+                    color: #414040 !important;
+                    border-color: #414040 !important;
+                }
+            }
+        }
+    }
+}

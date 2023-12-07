@@ -1,0 +1,22 @@
+.webcam-container{
+   &__camera{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   &__table{
+        display: flex;
+        align-items: center;
+   }
+    align-items: center;
+    &__video{
+        position: relative;
+        border: 5px solid black;
+        border-radius: 5px;
+       
+    }
+    &__canvas{
+        position: absolute;
+        z-index: 9999;
+    }
+}

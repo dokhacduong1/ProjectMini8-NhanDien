@@ -1,0 +1,17 @@
+.addSchedule{
+  width: 100%;
+  display: block !important;
+    &__form{
+        &-input{
+            &:hover{
+                border-color:  rgb(107, 107, 107)!important;
+            }
+            &:focus{
+                border-color: rgb(107, 107, 107) !important;
+            }
+        }
+        &-button{
+            background-color: rgb(107, 107, 107) !important;
+        }
+       }
+}

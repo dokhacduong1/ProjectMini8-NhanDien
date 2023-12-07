@@ -1,0 +1,64 @@
+.home {
+  &__welcome {
+    text-align: center !important;
+    &-form {
+      padding-bottom: 15px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &-input {
+        &:hover,
+        &:focus {
+          border-color: #414040 !important;
+        }
+      }
+      &-select {
+        div {
+          &:hover,
+          &:focus {
+            border-color: #414040 !important;
+          }
+        }
+      }
+      &-button {
+        background-color: #000000;
+        &:hover,
+        &:focus {
+          background-color: #414040 !important;
+        }
+      }
+    }
+    &-tags{
+        padding-bottom: 15px;
+        text-align: center;
+        &-list{
+            cursor: pointer;
+            &:hover{
+                background-color: #ffacac;
+            }
+        }
+      }
+      &-infoCompany{
+        text-align: center;
+        h3{
+            margin: 0;
+        }
+        &-card{
+           
+           cursor: pointer;
+           &:hover{
+            background-color: #dddddd;
+           }
+        }
+      }
+  }
+  &__button {
+    margin: 0px 10px;
+    &:active,
+    &:hover {
+      color: orange !important;
+      border-color: orange !important;
+    }
+  }
+ 
+}

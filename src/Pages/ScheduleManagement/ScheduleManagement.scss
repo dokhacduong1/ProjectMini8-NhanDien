@@ -1,0 +1,29 @@
+.scheduleManagement{
+    &__header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        &-button{
+            &:hover,&:active{
+                color: #1b1b1b !important;
+                border-color: #1b1b1b !important;
+            }
+        }
+    }
+    &__table{
+        &-iconAction{
+            span{
+              
+                margin: 0 3px;
+                cursor: pointer;
+                font-size: 18px;
+                &:hover{
+                    background-color: rgb(165, 165, 165);
+                    color: white;
+                    
+                }
+            }
+            
+        }
+    }
+}
